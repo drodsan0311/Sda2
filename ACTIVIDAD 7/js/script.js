@@ -12,7 +12,7 @@ function calcular(){
             if (nota >= 7 && nota < 8){
                 document.getElementById("resultado").innerHTML = "BIEN"
             }
-            if (nota >=10 && nota <= 8){
+            if (nota <=10 && nota >= 8){
                 document.getElementById("resultado").innerHTML= "excelente"
             }
     }
